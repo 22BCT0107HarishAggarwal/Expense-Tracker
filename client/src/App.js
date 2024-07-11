@@ -14,7 +14,7 @@ import TransactionForm from "./components/TransactionForm";
 import Footer from "./components/Footer";
 
 const httpLink = createHttpLink({
-  uri: "/graphql",
+  uri: "https://expense-tracker-backend-eta.vercel.app/",
 });
 
 const authLink = setContext((_, { headers }) => {
