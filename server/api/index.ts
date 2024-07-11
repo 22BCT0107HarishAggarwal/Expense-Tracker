@@ -21,7 +21,6 @@ app.use(express.json());
 app.use(cors({
   origin: 'https://expense-tracker-eight-teal.vercel.app',
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-  allowedHeaders: ['Content-Type', 'Authorization']
 }));
 
 
