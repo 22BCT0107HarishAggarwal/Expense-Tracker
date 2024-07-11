@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/expensetracker', {
+mongoose.connect('mongodb+srv://harishaggarwal2516:zYMBjDsaQHf9tLw7@expensetracker.krvya9s.mongodb.net/?retryWrites=true&w=majority&appName=EXPENSETRACKER', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
